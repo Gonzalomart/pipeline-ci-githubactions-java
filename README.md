@@ -1,3 +1,5 @@
+[![Build and test of Java Project](https://github.com/Gonzalomart/pipeline-ci-githubactions-java/actions/workflows/main.yml/badge.svg)](https://github.com/Gonzalomart/pipeline-ci-githubactions-java/actions/workflows/main.yml)
+
 # Pipeline de Integración Continua con GitHub Actions
 
 Repositorio para el laboratorio de CI con GitHub Actions
@@ -24,7 +26,6 @@ jobs:
      - name: Build with Maven
        run: mvn -B package --file pom.xml
 ```
-[![Build and test of Java Project](https://github.com/Gonzalomart/pipeline-ci-githubactions-java/actions/workflows/main.yml/badge.svg)](https://github.com/Gonzalomart/pipeline-ci-githubactions-java/actions/workflows/main.yml)
 ## Parte 2 - CD 
 ### Resolución de problemas con la suscripción de Estudiantes 
 
